@@ -1,0 +1,295 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nom": "Bulbasaur",
+      "tipus": ["Planta", "Veneno"],
+      "pes": "6.9 kg",
+      "altura": "70 cm",
+      "estadistiques": {
+        "velocitat": 45,
+        "fortalesa": 49,
+        "precisio": 65,
+        "resistencia": 49
+      },
+      "moviments": [
+        {
+          "nom": "Hoja Afilada",
+          "descripcio": "Lanza hojas afiladas para atacar al oponente.",
+          "potencia": 55,
+          "contacte": false
+        },
+        {
+          "nom": "Latigazo",
+          "descripcio": "Ataca con un fuerte latigazo.",
+          "potencia": 45,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+      "evolucions": [
+        {
+          "id": 2,
+          "nivell": 16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Ivysaur",
+      "tipus": ["Planta", "Veneno"],
+      "pes": "13.0 kg",
+      "altura": "1.0 m",
+      "estadistiques": {
+        "velocitat": 60,
+        "fortalesa": 62,
+        "precisio": 80,
+        "resistencia": 63
+      },
+      "moviments": [
+        {
+          "nom": "Rayo Solar",
+          "descripcio": "Acumula energía solar y luego la libera en un potente rayo.",
+          "potencia": 120,
+          "contacte": false
+        },
+        {
+          "nom": "Latigazo",
+          "descripcio": "Ataca con un fuerte latigazo.",
+          "potencia": 45,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+      "evolucions": [
+        {
+          "id": 3,
+          "nivell": 32
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Venusaur",
+      "tipus": ["Planta", "Veneno"],
+      "pes": "100.0 kg",
+      "altura": "2.0 m",
+      "estadistiques": {
+        "velocitat": 80,
+        "fortalesa": 82,
+        "precisio": 100,
+        "resistencia": 83
+      },
+      "moviments": [
+        {
+          "nom": "Rayo Solar",
+          "descripcio": "Acumula energía solar y luego la libera en un potente rayo.",
+          "potencia": 120,
+          "contacte": false
+        },
+        {
+          "nom": "Terremoto",
+          "descripcio": "Sacude el suelo causando daño a todos los Pokémon en combate.",
+          "potencia": 100,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+      "evolucions": []
+    },
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["Fuego"],
+      "pes": "8.5 kg",
+      "altura": "60 cm",
+      "estadistiques": {
+        "velocitat": 65,
+        "fortalesa": 52,
+        "precisio": 60,
+        "resistencia": 43
+      },
+      "moviments": [
+        {
+          "nom": "Llamarada",
+          "descripcio": "Lanza una llamarada intensa al oponente.",
+          "potencia": 90,
+          "contacte": false
+        },
+        {
+          "nom": "Arañazo",
+          "descripcio": "Ataca con unas garras afiladas.",
+          "potencia": 40,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "evolucions": [
+        {
+          "id": 5,
+          "nivell": 16
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Charmeleon",
+      "tipus": ["Fuego"],
+      "pes": "19.0 kg",
+      "altura": "1.1 m",
+      "estadistiques": {
+        "velocitat": 80,
+        "fortalesa": 64,
+        "precisio": 70,
+        "resistencia": 58
+      },
+      "moviments": [
+        {
+          "nom": "Lanzallamas",
+          "descripcio": "Lanza una columna de fuego al oponente.",
+          "potencia": 95,
+          "contacte": false
+        },
+        {
+          "nom": "Garra Dragón",
+          "descripcio": "Ataca con poderosas garras cargadas de energía dracónica.",
+          "potencia": 80,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+      "evolucions": [
+        {
+          "id": 6,
+          "nivell": 36
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Charizard",
+      "tipus": ["Fuego", "Volador"],
+      "pes": "90.5 kg",
+      "altura": "1.7 m",
+      "estadistiques": {
+        "velocitat": 100,
+        "fortalesa": 84,
+        "precisio": 109,
+        "resistencia": 78
+      },
+      "moviments": [
+        {
+          "nom": "Lanzallamas",
+          "descripcio": "Lanza una columna de fuego al oponente.",
+          "potencia": 95,
+          "contacte": false
+        },
+        {
+          "nom": "Vuelo",
+          "descripcio": "Se eleva en el aire y ataca en el segundo turno.",
+          "potencia": 90,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+      "evolucions": []
+    },
+    {
+      "id": 7,
+      "nom": "Squirtle",
+      "tipus": ["Agua"],
+      "pes": "9.0 kg",
+      "altura": "50 cm",
+      "estadistiques": {
+        "velocitat": 43,
+        "fortalesa": 48,
+        "precisio": 50,
+        "resistencia": 65
+      },
+      "moviments": [
+        {
+          "nom": "Pistola Agua",
+          "descripcio": "Lanza un chorro de agua al oponente.",
+          "potencia": 40,
+          "contacte": false
+        },
+        {
+          "nom": "Placaje",
+          "descripcio": "Embiste al oponente con fuerza.",
+          "potencia": 40,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+      "evolucions": [
+        {
+          "id": 8,
+          "nivell": 16
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nom": "Wartortle",
+      "tipus": ["Agua"],
+      "pes": "22.5 kg",
+      "altura": "1.0 m",
+      "estadistiques": {
+        "velocitat": 58,
+        "fortalesa": 63,
+        "precisio": 65,
+        "resistencia": 80
+      },
+      "moviments": [
+        {
+          "nom": "Hidropulso",
+          "descripcio": "Ataca con un pulso de agua que puede confundir.",
+          "potencia": 60,
+          "contacte": false
+        },
+        {
+          "nom": "Placaje",
+          "descripcio": "Embiste al oponente con fuerza.",
+          "potencia": 40,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+      "evolucions": [
+        {
+          "id": 9,
+          "nivell": 36
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nom": "Blastoise",
+      "tipus": ["Agua"],
+      "pes": "85.5 kg",
+      "altura": "1.6 m",
+      "estadistiques": {
+        "velocitat": 78,
+        "fortalesa": 83,
+        "precisio": 85,
+        "resistencia": 100
+      },
+      "moviments": [
+        {
+          "nom": "Hidrocañón",
+          "descripcio": "Lanza un potente chorro de agua a alta presión.",
+          "potencia": 150,
+          "contacte": false
+        },
+        {
+          "nom": "Placaje",
+          "descripcio": "Embiste al oponente con fuerza.",
+          "potencia": 40,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+      "evolucions": []
+    }
+  ]
+}
